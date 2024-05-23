@@ -13,7 +13,7 @@ class Solution:
                 for x in range(i*i, n, i):
                     primes[x] = False
                     
-        return len([i for i in range(n) if primes[i]])
+        return len([i for i in range(2, n) if primes[i]])
                     
             
             
